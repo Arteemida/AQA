@@ -7,11 +7,11 @@ public class Lion extends Animal implements WildAnimal {
 
     @Override
     void greets() {
-        System.out.println("Lion "+getName()+" says:Roar");
+        System.out.println("Lion " + getName() + " says:Roar");
     }
 
     @Override
     public void hunting() {
-        System.out.println("Lion "+getName()+" goes hunting");
+        System.out.println("Lion " + getName() + " goes hunting");
     }
 }
