@@ -8,6 +8,7 @@ public class Lesson9 {
     public static void main(String[] args) {
         String listValues = "tiger, cat, panther, cat, puma, tiger.";
         Function(listValues);
+        //Function("milk, butter, milk, cream");
     }
 
     public static void Function(String ListOfValues) {
